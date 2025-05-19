@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef3f8;
+    color: #1d2226;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+}
+
+h1 {
+    color: #0073b1;
+    margin-bottom: 24px;
+}
+
+.pet-status {
+    margin-bottom: 24px;
+}
+
+.pet-status img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.pet-status p {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+.actions button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #0073b1;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.actions button:hover {
+    background-color: #005582;
+}
+
+.health-report {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9fbfd;
+    border: 2px solid #0073b1;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.health-report h2 {
+    color: #0073b1;
+    margin-bottom: 10px;
+}
+
+.health-report ul {
+    list-style: none;
+    padding: 0;
+}
+
+.health-report li {
+    margin: 8px 0;
+    font-size: 16px;
+}

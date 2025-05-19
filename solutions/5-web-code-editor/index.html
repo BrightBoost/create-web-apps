@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Code Editor</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main class="editor-container">
+        <h1>Web Code Editor</h1>
+        <div class="controls">
+            <label for="themeToggle">
+                <input type="checkbox" id="themeToggle" /> Dark Mode
+            </label>
+            <label for="languageSelect">
+                Language:
+                <select id="languageSelect">
+                    <option value="html" selected>HTML</option>
+                    <option value="html-css-js">HTML + CSS + JS</option>
+                </select>
+            </label>
+        </div>
+        <div class="editor-wrapper">
+            <textarea id="codeInput" placeholder="Write your HTML here..."></textarea>
+
+            <!-- Extra editors for CSS/JS combo -->
+            <textarea id="cssInput" placeholder="Write your CSS here..." style="display: none;"></textarea>
+            <textarea id="jsInput" placeholder="Write your JS here..." style="display: none;"></textarea>
+
+            <iframe id="preview" title="Live Preview"></iframe>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
